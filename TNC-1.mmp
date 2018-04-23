@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mentalmodeler >
+<info >
+<name ><![CDATA[RI Academic Model]]></name>
+<author ><![CDATA[Joshua Drew ]]></author>
+<description ><![CDATA[]]></description>
+<version ><![CDATA[1.1]]></version>
+<date ><![CDATA[Mon Feb 26 2018 13:02:33 GMT-0500 (EST)]]></date>
+</info>
+<groupNames >
+</groupNames>
+<concepts >
+<concept >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[530]]></x>
+<y ><![CDATA[214]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[23]]></id>
+<name ><![CDATA[Jobs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.64]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Spat]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[625]]></x>
+<y ><![CDATA[630]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.03]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Local Govt]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[490]]></x>
+<y ><![CDATA[24]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0.6666666666666665]]></confidence>
+<influence ><![CDATA[0.33]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[5]]></id>
+<name ><![CDATA[City govt]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0.6666666666666665]]></confidence>
+<influence ><![CDATA[0.53]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Habitat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.5]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[5]]></id>
+<name ><![CDATA[City govt]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[1129]]></x>
+<y ><![CDATA[29]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.36]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0.6666666666666665]]></confidence>
+<influence ><![CDATA[0.67]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Local Govt]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[1.333333333333333]]></confidence>
+<influence ><![CDATA[0]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Recreational Watersheet users]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.61]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[NGO]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[910]]></x>
+<y ><![CDATA[74]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.33]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[1.333333333333333]]></confidence>
+<influence ><![CDATA[0.31]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Researchers]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[1031]]></x>
+<y ><![CDATA[91]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[12]]></id>
+<name ><![CDATA[Seed stock]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[Nutrient Cycling]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.53]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.44]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[1.333333333333333]]></confidence>
+<influence ><![CDATA[0.64]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Edu/Outreach]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[1153]]></x>
+<y ><![CDATA[389]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.64]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.64]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[935]]></x>
+<y ><![CDATA[232]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Fish Recuitment]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[1.333333333333333]]></confidence>
+<influence ><![CDATA[0.69]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[25]]></id>
+<name ><![CDATA[Predators and Pests]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.78]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Habitat]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[750]]></x>
+<y ><![CDATA[338]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.78]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Fish Recuitment]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[25]]></id>
+<name ><![CDATA[Predators and Pests]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.67]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Fish Recuitment]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[674]]></x>
+<y ><![CDATA[83]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[12]]></id>
+<name ><![CDATA[Seed stock]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[564]]></x>
+<y ><![CDATA[350]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Restoration]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[Nutrient Cycling]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[445]]></x>
+<y ><![CDATA[727]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[Shell Donation]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[147]]></x>
+<y ><![CDATA[697]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Restoration]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.33]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[464]]></x>
+<y ><![CDATA[539]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[Shell Donation]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<name ><![CDATA[Jobs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[336]]></x>
+<y ><![CDATA[327]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<name ><![CDATA[Jobs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[112]]></x>
+<y ><![CDATA[81]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.67]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Local Govt]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[5]]></id>
+<name ><![CDATA[City govt]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0.6666666666666665]]></confidence>
+<influence ><![CDATA[-0.36]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[Nutrient Cycling]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Edu/Outreach]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[102]]></x>
+<y ><![CDATA[185]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.67]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[1.333333333333333]]></confidence>
+<influence ><![CDATA[0.64]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Engineers]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[28]]></x>
+<y ><![CDATA[246]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Restoration]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.33]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.33]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Habitat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.33]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Recreational Watersheet users]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[46]]></x>
+<y ><![CDATA[15]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.72]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<name ><![CDATA[Jobs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Restoration]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[81]]></x>
+<y ><![CDATA[398]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.03]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.31]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[Nutrient Cycling]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0.33]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[22]]></id>
+<name ><![CDATA[Sedimentation]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[694]]></x>
+<y ><![CDATA[751]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Habitat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Spat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[1.333333333333333]]></confidence>
+<influence ><![CDATA[-0.72]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[23]]></id>
+<name ><![CDATA[Jobs]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[308]]></x>
+<y ><![CDATA[20]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[Restaurant]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[0]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[24]]></id>
+<name ><![CDATA[Disease]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[632]]></x>
+<y ><![CDATA[14]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Habitat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Spat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[25]]></id>
+<name ><![CDATA[Predators and Pests]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[1157]]></x>
+<y ><![CDATA[704]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Spat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Oyster Farms]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Food and Fish]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Habitat]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[2]]></confidence>
+<influence ><![CDATA[-0.78]]></influence>
+</relationship>
+</relationships>
+</concept>
+</concepts>
+<scenarios >
+<scenario >
+<name ><![CDATA[Scenario]]></name>
+<concepts >
+</concepts>
+</scenario>
+</scenarios>
+</mentalmodeler>
