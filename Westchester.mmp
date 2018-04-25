@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mentalmodeler >
+<info >
+<name ><![CDATA[Model]]></name>
+<author ><![CDATA[]]></author>
+<description ><![CDATA[]]></description>
+<version ><![CDATA[1.1]]></version>
+<date ><![CDATA[Wed Apr 18 2018 14:00:01 GMT-0400 (EDT)]]></date>
+</info>
+<groupNames >
+</groupNames>
+<concepts >
+<concept >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[735.5]]></x>
+<y ><![CDATA[418]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Oyster Reefs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Commercial Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.97]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Stormwater]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[413.5]]></x>
+<y ><![CDATA[237]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Beach Use]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Sedimentation]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Wastewater]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[966.5]]></x>
+<y ><![CDATA[227]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Beach Use]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Beach Use]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[719.5]]></x>
+<y ><![CDATA[241]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Stormwater]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.25]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Oyster Reefs]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[473.5]]></x>
+<y ><![CDATA[362]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Wave Power]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Recreational Boating]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.5]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Wave Power]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[510.5]]></x>
+<y ><![CDATA[601]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Tidal Wetlands]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Recreational Boating]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[309.5]]></x>
+<y ><![CDATA[59]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Beach Use]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Oyster Reefs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Commercial Shipping]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Commercial Shipping]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[567.5]]></x>
+<y ><![CDATA[114]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Oyster Reefs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Wave Power]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.25]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[219]]></x>
+<y ><![CDATA[536]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Oyster Reefs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Commercial Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Land Use/Development]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[932.5]]></x>
+<y ><![CDATA[424]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Wastewater]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Stormwater]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Tidal Wetlands]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Sedimentation]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[12]]></id>
+<name ><![CDATA[Environmental NGOs]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[923.5]]></x>
+<y ><![CDATA[667]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[City]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Education]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Land Use/Development]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Oyster Reefs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[City]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[1034.5]]></x>
+<y ><![CDATA[569]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Land Use/Development]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[Westchester County]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[1134.5]]></x>
+<y ><![CDATA[490]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[Land Use/Development]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Wastewater]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Education]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.5]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Education]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[1189.5]]></x>
+<y ><![CDATA[601]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[City]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[Coastal Residents]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[557.5]]></x>
+<y ><![CDATA[684]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[Westchester County]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Wastewater]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[City]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[Stormwater]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[Beach Use]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Tidal Wetlands]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[22]]></id>
+<name ><![CDATA[Dredging]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Commercial Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[86.5]]></x>
+<y ><![CDATA[339]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[164.5]]></x>
+<y ><![CDATA[171]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Recreational Boating]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Tidal Wetlands]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[137.5]]></x>
+<y ><![CDATA[666]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Biodiversity]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[Commercial Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Wave Power]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Sedimentation]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[332.5]]></x>
+<y ><![CDATA[732]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Tidal Wetlands]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[Oyster Reefs]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.5]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Recreational Boating]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[Commercial Shipping]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Rcreational Fisheries]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[Water Quality]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[22]]></id>
+<name ><![CDATA[Dredging]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[0]]></group>
+<x ><![CDATA[744.5]]></x>
+<y ><![CDATA[757]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<relationships >
+<relationship >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[Recreational Boating]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0.25]]></influence>
+</relationship>
+<relationship >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[Tidal Wetlands]]></name>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[-0.25]]></influence>
+</relationship>
+</relationships>
+</concept>
+</concepts>
+<scenarios >
+<scenario >
+<name ><![CDATA[Scenario]]></name>
+<concepts >
+</concepts>
+</scenario>
+</scenarios>
+</mentalmodeler>
